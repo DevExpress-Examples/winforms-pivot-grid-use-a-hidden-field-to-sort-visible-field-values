@@ -30,3 +30,4 @@ API in this example:
 **See also:**
 
 * [Sorting](https://docs.devexpress.com/WindowsForms/1809)
+* [Binding to Excel Data Source](https://docs.devexpress.com/WindowsForms/115529)

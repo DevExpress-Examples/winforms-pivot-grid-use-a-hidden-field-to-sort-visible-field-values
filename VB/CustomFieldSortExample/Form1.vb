@@ -13,7 +13,8 @@ Namespace CustomFieldSortExample
 		End Sub
 
 		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-			Me.salesPersonTableAdapter.Fill(Me.nwindDataSet.SalesPerson)
+			excelDataSource1.FileName = "SalesPerson.xlsx"
+			excelDataSource1.Fill()
 			pivotGridControl1.BestFit()
 		End Sub
 
@@ -22,7 +23,7 @@ Namespace CustomFieldSortExample
 		End Sub
 		Private Sub pivotGridControl1_CustomFieldSort(ByVal sender As Object, ByVal e As PivotGridCustomFieldSortEventArgs)
 			If e.Field.FieldName = "Sales Person" Then
-				Dim orderValue1 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex1, "LastName"), orderValue2 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex2, "LastName")
+				Dim orderValue1 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex1, "Last Name"), orderValue2 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex2, "Last Name")
 				e.Result = Comparer.Default.Compare(orderValue1, orderValue2)
 				e.Handled = True
 			End If

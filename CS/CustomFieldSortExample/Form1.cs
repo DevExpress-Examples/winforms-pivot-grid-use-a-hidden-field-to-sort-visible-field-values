@@ -12,7 +12,8 @@ namespace CustomFieldSortExample
 		}
 
         private void Form1_Load(object sender, EventArgs e) {
-            this.salesPersonTableAdapter.Fill(this.nwindDataSet.SalesPerson);
+            excelDataSource1.FileName = "SalesPerson.xlsx";
+            excelDataSource1.Fill();
             pivotGridControl1.BestFit();
         }
 
@@ -21,8 +22,8 @@ namespace CustomFieldSortExample
         }
         void pivotGridControl1_CustomFieldSort(object sender, PivotGridCustomFieldSortEventArgs e) {
             if (e.Field.FieldName == "Sales Person") {
-                object orderValue1 = e.GetListSourceColumnValue(e.ListSourceRowIndex1, "LastName"),
-                    orderValue2 = e.GetListSourceColumnValue(e.ListSourceRowIndex2, "LastName");
+                object orderValue1 = e.GetListSourceColumnValue(e.ListSourceRowIndex1, "Last Name"),
+                    orderValue2 = e.GetListSourceColumnValue(e.ListSourceRowIndex2, "Last Name");
                 e.Result = Comparer.Default.Compare(orderValue1, orderValue2);
                 e.Handled = true;
             }
