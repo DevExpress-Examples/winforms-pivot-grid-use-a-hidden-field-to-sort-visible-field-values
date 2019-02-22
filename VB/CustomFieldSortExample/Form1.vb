@@ -23,8 +23,12 @@ Namespace CustomFieldSortExample
 		End Sub
 		Private Sub pivotGridControl1_CustomFieldSort(ByVal sender As Object, ByVal e As PivotGridCustomFieldSortEventArgs)
 			If e.Field.FieldName = "Sales Person" Then
-				Dim orderValue1 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex1, "Last Name"), orderValue2 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex2, "Last Name")
-				e.Result = Comparer.Default.Compare(orderValue1, orderValue2)
+				If e.SortLocation = PivotSortLocation.Pivot Then
+					Dim orderValue1 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex1, "Last Name"), orderValue2 As Object = e.GetListSourceColumnValue(e.ListSourceRowIndex2, "Last Name")
+					e.Result = Comparer.Default.Compare(orderValue1, orderValue2)
+				Else
+					e.Result = Comparer.Default.Compare(e.Value1.ToString().Split(" "c)(1), e.Value2.ToString().Split(" "c)(1))
+				End If
 				e.Handled = True
 			End If
 		End Sub
