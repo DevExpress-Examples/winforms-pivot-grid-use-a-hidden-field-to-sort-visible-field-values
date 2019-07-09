@@ -1,8 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
+* [Form1.cs](./CS/CustomFieldSortExample/Form1.cs) (VB: [Form1.vb](./VB/CustomFieldSortExample/Form1.vb))
 <!-- default file list end -->
 # CustomFieldSort - How to Use a Hidden Field to Sort the Visible Field
 
