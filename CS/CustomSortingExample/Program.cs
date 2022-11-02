@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace CustomFieldSortExample {
+namespace CustomSortingExample {
 	static class Program {
 		/// <summary>
 		/// The main entry point for the application.
