@@ -7,7 +7,7 @@
 
 This example demonstrates how to sort the _Sales Person_ field by the hidden _Last Name_ data field.
 
-Check the _Enable custom sorting_ box to sort the _Sales Person_ values by _Last Name_ instead of the default alphabetical sorting order.
+Check the _Enable custom sorting_ box to sort the _Sales Person_ values by _Last Name_ instead of the default alphabetical sort order.
 
 ![](./images/screenshot.png)
 
