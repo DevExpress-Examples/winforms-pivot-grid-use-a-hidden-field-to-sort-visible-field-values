@@ -6,7 +6,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/CustomSortingExample/Form1.cs) (VB: [Form1.vb](./VB/CustomSortingExample/Form1.vb)) 
+* [Form1.cs](./CS/CustomFieldSortExample/Form1.cs) (VB: [Form1.vb](./VB/CustomFieldSortExample/Form1.vb)) 
 
 <!-- default file list end -->
 # CustomFieldSort - How to Use a Hidden Field to Sort the Visible Field
