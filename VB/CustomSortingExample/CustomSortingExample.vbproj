@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
@@ -9,14 +9,11 @@
     <ProjectGuid>{14D0D4C9-C4F6-4B0D-B4DB-CA7C4CB13FCD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>CustomFieldSortExample</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileUpgradeFlags></FileUpgradeFlags>
+    <UpgradeBackupLocation></UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -42,21 +39,21 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.CodeParser.v22.1" />
-    <Reference Include="DevExpress.DataAccess.v22.1" />
-    <Reference Include="DevExpress.Pdf.v22.1.Core" />
-    <Reference Include="DevExpress.Office.v22.1.Core" />
-    <Reference Include="DevExpress.RichEdit.v22.1.Core" />
-    <Reference Include="DevExpress.RichEdit.v22.1.Export" />
-    <Reference Include="DevExpress.Printing.v22.1.Core" />
-    <Reference Include="DevExpress.Drawing.v22.1" />
-    <Reference Include="DevExpress.Data.v22.1" />
-    <Reference Include="DevExpress.Data.Desktop.v22.1" />
-    <Reference Include="DevExpress.Utils.v22.1" />
-    <Reference Include="DevExpress.Xpo.v22.1" />
-    <Reference Include="DevExpress.XtraEditors.v22.1" />
-    <Reference Include="DevExpress.XtraPivotGrid.v22.1" />
-    <Reference Include="DevExpress.PivotGrid.v22.1.Core" />
+    <Reference Include="DevExpress.CodeParser.v24.2" />
+    <Reference Include="DevExpress.DataAccess.v24.2" />
+    <Reference Include="DevExpress.Pdf.v24.2.Core" />
+    <Reference Include="DevExpress.Office.v24.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v24.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v24.2.Export" />
+    <Reference Include="DevExpress.Printing.v24.2.Core" />
+    <Reference Include="DevExpress.Drawing.v24.2" />
+    <Reference Include="DevExpress.Data.v24.2" />
+    <Reference Include="DevExpress.Data.Desktop.v24.2" />
+    <Reference Include="DevExpress.Utils.v24.2" />
+    <Reference Include="DevExpress.Xpo.v24.2" />
+    <Reference Include="DevExpress.XtraEditors.v24.2" />
+    <Reference Include="DevExpress.XtraPivotGrid.v24.2" />
+    <Reference Include="DevExpress.PivotGrid.v24.2.Core" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
