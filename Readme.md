@@ -32,7 +32,7 @@ This example uses the following API:
 * [Sorting](https://docs.devexpress.com/WindowsForms/1809)
 * [Binding to Excel Data Source](https://docs.devexpress.com/WindowsForms/115529)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivot-grid-use-a-hidden-field-to-sort-visible-field-values&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivot-grid-use-a-hidden-field-to-sort-visible-field-values&~~~was_helpful=no)
 
